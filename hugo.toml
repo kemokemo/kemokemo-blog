@@ -1,0 +1,19 @@
+baseURL = 'https://kemokemo.github.io/'
+languageCode = 'ja-jp'
+title = 'KemoKemo Blog'
+
+[module]
+[[module.imports]]
+  path = 'github.com/michimani/simplog'
+
+[params]
+  colorTheme = "blue"
+  subtitle = "きままなつぶやき"
+
+# refer to the https://github.com/michimani/simplog/blob/master/exampleSite/config.toml
+#[menu]
+#  [[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#    weight = 10
