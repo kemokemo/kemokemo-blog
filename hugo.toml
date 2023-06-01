@@ -1,16 +1,45 @@
-baseURL = 'https://kemokemo.github.io/kemokemo-blog/'
+baseURL = 'http://example.org/'
 languageCode = 'ja-jp'
+theme = "m10c"
 
-[module]
-[[module.imports]]
-  path = 'github.com/kemokemo/hugo-theme-hello-friend'
+title = 'KemoKemo Blog'
 
 [params]
-  defaultTheme = "light"
-  title = "KemoKemo Blog"
-  subtitle = "きままなつぶやき"
+  author = 'kemokemo'
+  description = 'KemoKemoの気ままなつぶやき'
+  avatar = 'kemokemo-icon-s.png'
+  menu_item_separator = " / "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/kemokemo"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/t2wonderland"
 
-  [params.logo]
-    logoText = "KemoKemo Blog"
-    logoHomeLink = "/kemokemo-blog"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  [[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
 
+[params.style]
+  primaryColor = "#37bcde"
+
+# light style
+#[params.style]
+#  darkestColor = "#dfe2d4"
+#  darkColor = "#fefeff"
+#  lightColor = "#353b43"
+#  lightestColor = "#242930"
+#  primaryColor = "#22AAFF"
