@@ -22,16 +22,16 @@ title = 'KemoKemo Blog'
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    url = "/kemokemo-blog/"
     weight = 1
   [[menu.main]]
-  identifier = "search"
-  name = "Search"
-  url = "/search/"
+    identifier = "search"
+    name = "Search"
+    url = "/kemokemo-blog/search/"
   [[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
+    identifier = "tags"
+    name = "Tags"
+    url = "/kemokemo-blog/tags/"
 
 [params.style]
   primaryColor = "#37bcde"
