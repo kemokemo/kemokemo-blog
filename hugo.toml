@@ -10,6 +10,7 @@ title = 'KemoKemo Blog'
   avatar = 'kemokemo-icon-s.png'
   menu_item_separator = " / "
   images = ['kemokemo-icon-s.png']
+  favicon =  '/kemokemo-blog/favicon.png'
   [[params.social]]
     icon = "github"
     name = "Github"
