@@ -3,6 +3,12 @@ name: Build Hugo site
 on:
   pull_request:
   workflow_call:
+    inputs:
+      upload-contents:
+        description: 'If you upload the built contents to the pages, set true for this flag.'
+        default: false
+        required: true
+        type: boolean
 
 defaults:
   run:
@@ -33,3 +39,12 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Setup Pages
+        if: inputs.upload-contents
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        if: inputs.upload-contents
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
