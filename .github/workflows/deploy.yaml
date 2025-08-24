@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: kemokemo/kemokemo-blog/.github/workflows/build.yaml@master
+      - uses: kemokemo/kemokemo-blog/.github/workflows/build.yaml@main
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
