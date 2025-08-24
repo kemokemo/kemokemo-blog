@@ -20,32 +20,41 @@ title = 'KemoKemo Blog'
     icon = "twitter"
     name = "Twitter"
     url = "https://twitter.com/t2wonderland"
+  [[params.social]]
+    icon = "database"
+    name = "Qiita"
+    url = "https://qiita.com/KemoKemo"
+  [[params.social]]
+    icon = "book"
+    name = "Blogger(旧ブログ)"
+    url = "https://t2wonderland.blogspot.com/"
 
 [menu]
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/kemokemo-blog/"
+    url = "/"
     weight = 1
   [[menu.main]]
     identifier = "search"
     name = "Search"
-    url = "/kemokemo-blog/search/"
+    url = "/search/"
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
-    url = "/kemokemo-blog/tags/"
+    url = "/tags/"
 
-[params.style]
-  primaryColor = "#37bcde"
-
-# light style
+# dark style
 #[params.style]
-#  darkestColor = "#dfe2d4"
-#  darkColor = "#fefeff"
-#  lightColor = "#353b43"
-#  lightestColor = "#242930"
-#  primaryColor = "#22AAFF"
+#  primaryColor = "#37bcde"
+
+# lilac style
+[params.style]
+  darkestColor = "#a7adcdff"
+  darkColor = "#e7ebf6ff"
+  lightColor = "#353b43"
+  lightestColor = "#242930"
+  primaryColor = "#8d29a1ff"
 
 [markup]
   [markup.tableOfContents]
