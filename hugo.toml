@@ -11,6 +11,7 @@ title = 'KemoKemo Blog'
   menu_item_separator = " / "
   images = ['kemokemo-icon-s.png']
   favicon =  '/kemokemo-blog/favicon.png'
+  enableTOC = true
   [[params.social]]
     icon = "github"
     name = "Github"
@@ -45,3 +46,9 @@ title = 'KemoKemo Blog'
 #  lightColor = "#353b43"
 #  lightestColor = "#242930"
 #  primaryColor = "#22AAFF"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = true
+    startLevel = 2
