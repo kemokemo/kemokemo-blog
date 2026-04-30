@@ -17,17 +17,21 @@ title = 'KemoKemo Blog'
     name = "Github"
     url = "https://github.com/kemokemo"
   [[params.social]]
-    icon = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/t2wonderland"
+    icon = "music"
+    name = "SoundCloud"
+    url = "https://soundcloud.com/kemokemo-1"
   [[params.social]]
-    icon = "database"
+    icon = "book"
     name = "Qiita"
     url = "https://qiita.com/KemoKemo"
   [[params.social]]
     icon = "book"
     name = "Blogger(旧ブログ)"
     url = "https://t2wonderland.blogspot.com/"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/t2wonderland"
 
 [menu]
   [[menu.main]]
